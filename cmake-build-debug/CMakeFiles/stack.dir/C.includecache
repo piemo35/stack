@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/pietro/Documents/GITHUB/cpp/stack/header.h
+stdio.h
+-
+stdlib.h
+-
+ctype.h
+-
+
+/Users/pietro/Documents/GITHUB/cpp/stack/main.c
+header.h
+/Users/pietro/Documents/GITHUB/cpp/stack/header.h
+
